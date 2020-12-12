@@ -8,6 +8,14 @@ function initMap(){
 
     var markers = [
         {
+            coords:{lat: 43.209600, lng: 76.953500}, /*laverde*/
+            iconImage: './img/map/pin_laverde.png',
+            content:'<h3>Laverde</h3>'
+        }, {
+            coords:{lat: 43.215582, lng: 76.881238}, /*navoi3.0*/
+            iconImage: './img/map/pin_navoi.svg',
+            content:'<h3>Naoi 3.0</h3>'
+        }, {
             coords:{lat: 43.201870, lng: 76.906873}, /*rams_lux*/
             iconImage: './img/map/pin_ramslux.png',
             content:'<h3>Rams Luxury</h3>'
